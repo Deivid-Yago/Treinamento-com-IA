@@ -1,0 +1,57 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho {
+        padding: 10px 5px;
+}
+
+ .cabecalho .logo {
+    display: inline-block;
+}
+
+.cabecalho nav {
+    float: right;
+}
+
+
+.cabecalho nav li{
+    display: inline-block;
+    padding: 15px;
+}
+
+main{
+padding: 100px;
+min-width: 320px;
+max-width: 1030px;
+margin: auto;
+} 
+
+.container{
+    text-align: center;
+    
+}
+
+.titulo{
+    padding: 10px;
+
+}
+
+p{
+    padding: 20px;
+    
+}
+
+button{
+    margin: 20px;
+    height: 30px;
+    width: 120px;
+    border-radius: 3px;
+    background-color: #010001;
+    color: white;
+}
+
+button:hover{
+    background-color: #333;
+    cursor:pointer;
+}
